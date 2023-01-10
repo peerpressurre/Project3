@@ -13,7 +13,7 @@ int main()
     double b;
     b = (cop - a) / 100;
     grn = grn + b;
-    std::cout << grn << "грн " << a << "коп";
+    std::cout << grn << "grn " << a << "cop";
 
     return 0;
 }
