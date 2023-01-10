@@ -2,18 +2,17 @@
 
 int main()
 {
-    int grn;
-    std::cout << "grn->";
-    std::cin >> grn;
-    int cop;
-    std::cout << "cop->";
-    std::cin >> cop;
-    double a;
-    a = cop % 100;
-    double b;
-    b = (cop - a) / 100;
-    grn = grn + b;
-    std::cout << grn << "грн " << a << "коп";
+	float scale;
+	std::cout << "map scale->";
+	std::cin >> scale;
+	float dots_distance;
+	std::cout << "distance between two dots that represent points->";
+	std::cin >> dots_distance;
 
-    return 0;
+	double distance;
+	distance = scale * dots_distance;
+
+	std::cout << "Distance between two points:" << distance << "km";
+
+	return 0;
 }
