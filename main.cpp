@@ -2,18 +2,19 @@
 
 int main()
 {
-    int grn;
-    std::cout << "grn->";
-    std::cin >> grn;
-    int cop;
-    std::cout << "cop->";
-    std::cin >> cop;
-    double a;
-    a = cop % 100;
-    double b;
-    b = (cop - a) / 100;
-    grn = grn + b;
-    std::cout << grn << "грн " << a << "коп";
+	float lenghth;
+	std::cout << "lenghth->";
+	std::cin >> lenghth;
+	float widhth;
+	std::cout << "widhth->";
+	std::cin >> widhth;
+	float height;
+	std::cout << "height->";
+	std::cin >> height;
+	double volume;
+	volume = lenghth * widhth * height;
 
-    return 0;
+	std::cout << "Volume:" << volume << "cm3";
+
+	return 0;
 }
