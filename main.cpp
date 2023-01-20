@@ -3,7 +3,7 @@
 int main()
 {
 	float r;
-	std::cout << "r->";
+	std::cout << "Enter radius->";
 	std::cin >> r;
 	r = r * r * r;
 	float n;
