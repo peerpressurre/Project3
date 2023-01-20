@@ -12,7 +12,7 @@ int main()
 	double distance;
 	distance = scale * dots_distance;
 
-	std::cout << "Distance between two points:" << distance << "km";
+	std::cout << "Distance between two points: " << distance << "km";
 
 	return 0;
 }
